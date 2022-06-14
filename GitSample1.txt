@@ -1,4 +1,5 @@
 Sample file 1
+Added for to check modification 1
 Problem statement for MiniProject
 You are responsible for developing a shopping
 application.
