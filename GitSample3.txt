@@ -1,0 +1,116 @@
+Sample file 3
+Problem statement for MiniProject
+You are responsible for developing a shopping
+application.
+This application has two modules.
+1. Admin
+2. Customer
+----------------------------------------
+First interface of your application should be
+like below
+--------Menu--------
+1. Admin
+2. Customer
+0. Exit
+-------------------
+
+Admin or Customer, both needs to provide username
+and password and after authentication only user
+will be able to use shopping application.
+------------------------------------------
+
+-----------------Admin Module----------
+Admin will be able to perform following
+Operations
+--------Admin Menu----------
+1. Add Product
+2. Update Product
+3. Delete Product
+4. Get Product by ID
+5. Get All Products
+6. Add customer
+7. Update Customer Information
+8. Delete Customer
+9. Get Customer by ID
+10. Get All Customer
+0. Exit
+--------------------------------------
+
+
+
+-----------------Customer Module------------
+After successful login of customer customer
+will get following Menu
+
+------Select Category---------
+1. Laptop
+2. Phones
+3. Furniture
+4. Fashion
+5. Home Appliances
+0. Exit
+-----------------------------
+
+for example consider customer will enter 1
+then all products belongs to laptop category
+will be display in menu as below:
+(Data should be coming from database)
+--------Laptops------
+1. Lenovo thinkPad  55000
+2. Dell Inspiron 75000
+3. HP Pavilion  50000
+4. Apple MacBook Pro 80000
+0. Exit
+---------------------
+
+For example if customer select 1
+then your application should ask for quantity
+
+Enter Quantity for Product:
+if input will be 1
+then your application will display invoice in console
+
+Name of Product = Lenovo thinkPad
+Quantity = 1
+Your Bill = 55000
+Thank you for your purchase.
+
+(Note- 
+1. This should be done for all categories.
+2. For each purchase Data should be added in database
+(Create a table OrderDetails and save order details
+in it.)
+)
+
+Once purchase will done your application will ask
+
+Do you want to Continue?
+if Yes then again it will display
+--------Laptops------
+1. Lenovo thinkPad  55000
+2. Dell Inspiron 75000
+3. HP Pavilion  50000
+4. Apple MacBook Pro 80000
+0. Exit
+---------------------
+
+if Choice is no then it will display previous
+Menu.
+------Select Category---------
+1. Laptop
+2. Phones
+3. Furniture
+4. Fashion
+5. Home Appliances
+0. Exit
+-----------------------------
+
+If choice will be 0 then it will move to
+Main Menu
+--------Menu--------
+1. Admin
+2. Customer
+0. Exit
+-------------------
+
+and after pressing 0 your application stop / Exit
